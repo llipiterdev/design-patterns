@@ -4,9 +4,9 @@ Este repositorio contiene un trabajo en grupo sobre patrones de diseño implemen
 
 ## Estructura del Proyecto
 
-- `exercise1/`: Carpeta del primer ejercicio (ver README.md para detalles del problema)
-- `exercise2/`: Carpeta del segundo ejercicio (ver README.md para detalles del problema)
-- `exercise3/`: Carpeta del tercer ejercicio (ver README.md para detalles del problema)
+- `exercise1/`: Ejercicio 1 - Patrón Builder (ver README.md para detalles del problema)
+- `exercise2/`: Ejercicio 2 - Patrón Bridge (ver README.md para detalles del problema)
+- `exercise3/`: Ejercicio 3 - Patrón Mediator (ver README.md para detalles del problema)
 - `.gitignore`: Archivos ignorados por Git (node_modules, dist, etc.)
 
 Cada carpeta de ejercicio contiene:
@@ -15,14 +15,30 @@ Cada carpeta de ejercicio contiene:
 - `src/`: Código fuente en TypeScript
 - `dist/`: Archivos compilados (ignorados en Git)
 - `README.md`: Descripción detallada del problema y beneficios esperados
+- `SOLUTION.md`: Explicación de la solución implementada
 
-## Instrucciones de Uso
+## Requisitos
 
-Para trabajar en un ejercicio específico:
+- Node.js (versión 14 o superior)
+- npm (viene incluido con Node.js)
 
-1. Navega a la carpeta del ejercicio: `cd exercise1` (o exercise2/exercise3)
-2. Compila el código: `npm run build`
-3. Ejecuta el programa: `npm start`
+## Instrucciones de Instalación y Uso
+
+Para probar un ejercicio específico:
+
+1. Clona el repositorio: `git clone <url-del-repositorio>`
+2. Navega a la carpeta del ejercicio: `cd exercise1` (o `exercise2` o `exercise3`)
+3. Instala las dependencias: `npm install`
+4. Compila el código: `npm run build`
+5. Ejecuta el programa: `npm start`
+
+Cada ejercicio mostrará su salida en la consola, demostrando el funcionamiento del patrón de diseño implementado.
+
+### Descripción de Ejercicios
+
+- **Ejercicio 1 (Builder)**: Construcción de un objeto `Car` con múltiples configuraciones opcionales de manera flexible y legible.
+- **Ejercicio 2 (Bridge)**: Gestión de notificaciones de diferentes tipos en múltiples plataformas (web, móvil, escritorio) sin explosión de subclases.
+- **Ejercicio 3 (Mediator)**: Implementación de un chat room donde los usuarios se comunican a través de un mediador centralizado.
 
 ## Criterios Generales
 
@@ -42,5 +58,5 @@ Cada miembro del grupo puede trabajar en su ejercicio asignado. Recuerda hacer p
 ## Notas
 
 - Asegúrate de tener Node.js instalado.
-- Las dependencias ya están instaladas en cada carpeta.
+- Las dependencias se instalan localmente en cada carpeta de ejercicio.
 - Usa Git para versionar los cambios.
